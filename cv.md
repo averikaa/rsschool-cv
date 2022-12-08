@@ -1,4 +1,3 @@
-## rssschool-cv
 # Daria Sviatlouskaya
 ## Contacts
 * Location: Gdansk, Poland
