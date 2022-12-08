@@ -18,7 +18,7 @@ I am 23 years old. I am a graduate of the Belarusian State Technological Univers
 * CSS (Basic)
 * JavaScript (Basic)
 * Git/GitHub (Basic)
-* Avocode, Compas, Photoshop
+* Autocad, Compas, Photoshop
 ## Code Example:
 ```
 function multiply(a, b){
