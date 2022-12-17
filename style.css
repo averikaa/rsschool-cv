@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    background-color: white;
+    background-color: rgba(255, 249, 224, 0.859);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -51,7 +51,7 @@ ul {
     text-decoration: none;
     font-family: RobotoSlab;
     font-size: 2vw;
-    color: black;
+    color: #4d2323;
     transition: .3s;
   }
   .nav-link:hover {
@@ -70,7 +70,7 @@ ul {
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #eadfd2;
+    border-bottom: 15px solid rgba(153, 115, 18, 0.715);
 }
   .h1-fix {
     font-size: 2rem;
@@ -91,8 +91,9 @@ ul {
     position: relative;
     padding: 0;
     margin-bottom: 20px;
-    color: #000;
+    color: #4d2323;
     font-size: 32px;
+    font-family: RobotoSlab;
     font-weight: 300;
     letter-spacing: 10px;
     line-height: 50px;
@@ -106,11 +107,12 @@ ul {
     margin-left: -70px;
     width: 140px;
     height: 2px;
-    background-color: darkorange;
+    background-color: rgba(153, 115, 18, 0.715);
 }
   .subtitle {
     margin-top: 20px;
-    color: #5c5c5c;
+    color: #4d2323;
+    font-family: RobotoSlab;
     line-height: 50px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -128,9 +130,17 @@ ul {
     color: darkorange;
     transition: color 0.5s;
   }
+  .link-fix{
+    text-decoration: none;
+    color: #4d2323;
+    transition: color 0.5s;
+  }
+  .link-fix:hover {
+    color:darkorange;
+  }
   
   .link:hover {
-    color: #5d7260;
+    color: #4d2323;
   }
   .avatar {
     width: 300px;
@@ -161,11 +171,14 @@ ul {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    color: rgb(135, 135, 135);
+    color: white;
 }
 .footer {
-  background-color: rgba(191, 145, 28, 0.956);
+  background-color: rgba(153, 115, 18, 0.715);
   padding: 20px;
+}
+.github {
+  color: white ;
 }
 .rss {
   width: 121px;
@@ -183,8 +196,8 @@ ul {
       flex-direction: column;
     }
     .nav-link {
-      padding: 5px 10px;
+      padding: 5px 5px;
       line-height: 20px;
-      font-size: 2.5vw;
+      font-size: 3vw;
     }
   }
