@@ -18,6 +18,9 @@ font-family: Inter;
         src: url("assets/fonts/Inika-Regular.ttf");
         font-weight: 400;
 }
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  }
 body {
     min-height: 100%;
     margin: 0;
@@ -43,18 +46,21 @@ body {
     line-height: 50px;
     color: #000;
 }
+.nav {
+    width: 490px;
+}
 .nav-list{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;  
     list-style: none;
 }
 .nav-link {
-    padding: 15px 20px;
     line-height: 50px;
     text-decoration: none;
     font-family: Inika;
     color: #000;
+    transition: .3s;
   }
   .nav-link:hover {
     color: #E06733;
@@ -62,14 +68,14 @@ body {
 .h1-color {
     color: #717171;
 }
-.home-section-header {    
+.welcome-section-header {    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
 }
-.home-section-header-part {
+.welcome-section-header-part {
     color: #499A18;
 }
 .section {
@@ -79,22 +85,23 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.home-section {
+.welcome-section {
 
     /* padding: 8px 0px; */
     gap: 10px;
     background: #EDF2EC;
 }
-.home-section-item {
+.welcome-section-item {
     text-align: left;
     width: 45%;
 }
 
 .about-section-item {
     text-align: left;
+    margin-top: 123px;
     width: 45%;
 }
-.home-section-paragraph {
+.welcome-section-paragraph {
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
@@ -103,8 +110,9 @@ body {
     color: #636060;
     margin-top: 42px;
 }
-.home-section-button {
+.welcome-section-button {
     border: 2px solid #E06733;
+    background-color: transparent;
     border-radius: 10px;
     font-family: Inter;
     font-style: normal;
@@ -114,7 +122,13 @@ body {
     color: #000;
     width: 158px;
     height: 44px;
-    margin-top: 48px;
+    margin-top: 35px;
+    transition: .3s;
+}
+.welcome-section-button:hover{
+    color: #fff;
+    background-color: #E06733;
+    cursor: pointer;
 }
 .container {
     min-width: 1440px;
@@ -149,6 +163,7 @@ body {
     margin: 0;
 }
 .service-section-block {
+    margin-top: 64px;
     margin-left: 100px;
     margin-right: 110px;
     margin-bottom: 120px;
@@ -158,12 +173,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 45px;
 }
 .service-section-buttons {
     display: flex;
     flex-direction: row;
-    margin-right: 250px;
+    margin-right: 195px;
 }
 .service-section-items {
     display: flex;
@@ -171,6 +186,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: initial;
+    margin-top: 45px;
 }
 .service-section-item {
     display: flex;
@@ -210,6 +226,12 @@ body {
     margin-left: 19px;
     margin-right: 19px;
     background-color: #EDF2EC;
+    transition: .3s;
+}
+.service-section-button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #E06733;
 }
 .service-section-h3 {
     font-family: 'Inter';
@@ -259,9 +281,16 @@ body {
     margin-top: 5px;
     margin-bottom: 38px;
     border-radius: 5px;
+    transition: .3s;
+}
+.price-section-button:hover {
+    color: #fff;
+    background-color: #E06733;
+    cursor: pointer;
 }
 .prices-header {
     font-family: 'Inter';
+    margin-top: 6px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -274,9 +303,11 @@ body {
 }
 .price-section-types {
     display: flex;
+    margin-left: 10px;
     flex-direction: column;
 }
 .price-header {
+    margin-top: -27px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -288,7 +319,8 @@ body {
     align-items: center;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
-    padding: 16px 0px;
+    margin-top: 22px;
+    padding-top: 32px;
 }
 .price-section-block{
     display: flex;
@@ -316,7 +348,7 @@ body {
     width: 250px;
     height: 50px;
     appearance: none;
-    margin: 16px 40px;
+    margin: 6px 40px;
     padding: 0px 40px;
     display: flex;
 }
@@ -382,6 +414,7 @@ body {
     letter-spacing: 0.05em;
     color: #717171;
     padding: 5px 35px 5px 20px;
+    margin-top: -55px
 }
 .contacts-select-span {
     position: relative;
@@ -411,10 +444,15 @@ body {
     display: flex;
 }
 .footer-img-block {
+    list-style-type: none;
     display: flex;
 }
 .footer-img {
+    display: block;
+    background-size: contain;
+    background-size: 100% 100%;
     margin-left: 20px;
+    background-repeat: no-repeat;
     width: 32px;
     height: 32px;
 }
@@ -432,4 +470,7 @@ body {
 .footer-link {
     color: #000;
     text-decoration: none;
+}
+.footer-link:hover {
+    color: #499A18;
 }
