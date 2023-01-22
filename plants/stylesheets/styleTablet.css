@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Inter;
+     src: url("../assets/fonts/Inter-Regular.ttf");
+     font-weight: 300;
+   }
+@font-face {
+font-family: Inter;
+    src: url("../assets/fonts/Inter-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Inika;
+        src: url("../assets/fonts/Inika-Bold.ttf");
+        font-weight: 700;
+}
+@font-face {
+    font-family: Inika;
+        src: url("../assets/fonts/Inika-Regular.ttf");
+        font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+    .header {
+        height: 117px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .header-bg {
+        max-width: 768px;
+    }
+    .header-content {
+        margin-left: 0;
+    }
+    .header-text {
+        line-height: 21px;
+    }
+    .nav {
+        width: 452px;
+    }
+    .nav-list {
+        margin-right: -20px;
+    }
+    .welcome-section-img {
+        width: 280px;
+        height: 255px;
+        display: block;
+        margin-left: 30px;
+    }
+    .section-margin {
+        margin: 0px;
+    }
+
+    .section {
+        justify-content: space-between;
+        max-width: 768px;
+        flex-direction: row-reverse;
+    }
+    .content-bg {
+        max-width: 768px;
+    }
+    .welcome-section {
+        padding: 40px 0px 70px 50px;
+    }
+    .welcome-section-header {
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .welcome-section-paragraph {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-right: 30px;
+    }
+    .welcome-section-item {
+        width: 50%;
+    }
+    .about-section {
+        flex-direction: column;
+        padding: 40px 50px 70px 50px;
+
+    }
+    .about-section-header {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .about-section-header-h {
+        margin: 0 120px 0 122px;
+        text-align: center;
+    }
+    .about-section-img {
+        width: 250px;
+        height: 258px;
+    }
+    .about-section-item {
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    .about-section-item-margin {
+        margin: -20px 210px 20px 210px;
+    }
+    .about-section-item-text {
+        width: 100%;
+    }
+    .about-section-paragraph {
+        margin-top: 50px;
+    }
+    .service-section-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .service-section-block {
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 33px;
+    }
+    .service-section-buttons {
+        margin: 10px 0 0 0;
+    }
+    .service-section-button {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    .service-section-item-img {
+      width: 280px;
+      height: 350px;  
+    }
+    .service-section-title {
+        font-size: 35px;
+        line-height: 46px;
+        width: 300px;
+    }
+    .service-section-item {
+        margin-bottom: 40px;
+    }
+    .service-section-paragraph {
+        margin-bottom: 15px;
+        width: 201px;
+        text-align: center;
+    }
+    .service-section-h3 {
+        margin-top: 10px;
+    }
+    .price-section-block{
+        margin-bottom: 84px;
+    }
+    .prices-header {
+        font-size: 35px;
+    }
+    .price-header {
+        margin-top: 90px;
+    }
+    .price-section-header {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+        width: 296px;
+        margin-bottom: -9px;
+    }
+    .price-section-content-block { 
+        margin-top: 0px;
+        flex-direction: row;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .select-block {
+        margin-left: -8px;
+        padding-top: 25px;
+    }
+    .contacts-section-block {
+        flex-direction: column;
+    }
+    .contacts-section-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contacts-section-woman {
+        height: 250px ;
+        width: 200px;
+        margin-top: 232px;
+        margin-left: 20px;
+    }
+    .contacts-section-h2 {
+        margin: 40px 0px -58px 0px;
+    }
+    .contacts-city {
+        margin-top: 213px;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-rss {
+        margin: -50px 57px 0 0;
+    }
+    .footer-github {
+        margin-left: 15px;
+    }
+    .footer-img-block {
+        margin: -7px 55px 0 0;
+    }
+}

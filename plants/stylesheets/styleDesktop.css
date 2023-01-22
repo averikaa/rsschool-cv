@@ -1,21 +1,21 @@
 @font-face {
     font-family: Inter;
-     src: url("assets/fonts/Inter-Regular.ttf");
+     src: url("../assets/fonts/Inter-Regular.ttf");
      font-weight: 300;
    }
 @font-face {
 font-family: Inter;
-    src: url("assets/fonts/Inter-Bold.ttf");
+    src: url("../assets/fonts/Inter-Bold.ttf");
     font-weight: 700;
 }
 @font-face {
     font-family: Inika;
-        src: url("assets/fonts/Inika-Bold.ttf");
+        src: url("../assets/fonts/Inika-Bold.ttf");
         font-weight: 700;
 }
 @font-face {
     font-family: Inika;
-        src: url("assets/fonts/Inika-Regular.ttf");
+        src: url("../assets/fonts/Inika-Regular.ttf");
         font-weight: 400;
 }
 html {
@@ -99,8 +99,6 @@ body {
     margin-top: 55px;
 }
 .section {
-    /* margin-left: 100px; */
-    /* margin-right: 110px; */
     margin-top: 55px;
     display: flex;
     justify-content: space-between;
@@ -173,6 +171,12 @@ body {
     line-height: 30px;
     color: #636060;
 }
+.about-section-item-margin {
+    margin: 87px 0px 35px 170px;
+}
+.about-section-item-text {
+    width: 65%;
+}
 .service-section {
     display: flex;
     flex-direction: column;
@@ -213,6 +217,13 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 55px;
+}
+.service-section-item-img {
+   width: 329px;     
+   height: 350px;
+   object-fit: cover;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
 }
 .serice-section-item-text {
     display: flex;
@@ -321,6 +332,10 @@ body {
     width: 100%;
     margin: 0;
     margin-top: 30px;
+}
+.price-section-content-block {
+    width: 100%; 
+    margin-top: -5px;
 }
 .price-section-types {
     display: flex;
