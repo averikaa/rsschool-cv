@@ -47,8 +47,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 30px;
+    margin-left: -5px;
+    margin-right: 0px;
 }
 .header-text {
     font-family: 'Inika';
@@ -502,6 +502,9 @@ body {
 .footer-link {
     color: #000;
     text-decoration: none;
+}
+.footer-link-RSS {
+    margin-left: 57px;
 }
 .footer-link:hover {
     color: #499A18;

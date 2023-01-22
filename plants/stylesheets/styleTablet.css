@@ -29,6 +29,7 @@ font-family: Inter;
     }
     .header-content {
         margin-left: 0;
+        margin-right: 40px;
     }
     .header-text {
         line-height: 21px;
@@ -37,7 +38,7 @@ font-family: Inter;
         width: 452px;
     }
     .nav-list {
-        margin-right: -20px;
+        margin-right: -35px;
     }
     .welcome-section-img {
         width: 280px;
@@ -195,6 +196,9 @@ font-family: Inter;
     }
     .footer-github {
         margin-left: 15px;
+    }
+    .footer-link-RSS {
+        margin-left: 57px;
     }
     .footer-img-block {
         margin: -7px 55px 0 0;

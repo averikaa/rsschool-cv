@@ -1,3 +1,203 @@
+@font-face {
+    font-family: Inter;
+     src: url("../assets/fonts/Inter-Regular.ttf");
+     font-weight: 300;
+   }
+@font-face {
+font-family: Inter;
+    src: url("../assets/fonts/Inter-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Inika;
+        src: url("../assets/fonts/Inika-Bold.ttf");
+        font-weight: 700;
+}
+@font-face {
+    font-family: Inika;
+        src: url("../assets/fonts/Inika-Regular.ttf");
+        font-weight: 400;
+}
 @media screen and (max-width: 380px) {
-    
+    .header-content {
+        margin: 0px 0 20px -30px
+    }
+    .nav {
+        display: none;
+    }
+    .section {
+        justify-content: space-between;
+        max-width: 380px;
+        flex-direction: row-reverse;
+    }
+    .welcome-section {
+        padding: 5px 0px 24px 25px;
+    }
+    .welcome-section-header {
+        font-size: 25px;
+        line-height: 35px;
+        width: 330px;
+    }
+    .welcome-section-img {
+        display: none;
+    }
+    .welcome-section-paragraph {
+        font-size: 16px;
+        line-height: 25px;
+        width: 315px;
+        margin-top: 21px;
+    }
+    .welcome-section-button {
+        width: 100px;
+        height: 34.14px;
+        font-size: 10px;
+        margin-top: 25px
+    }
+    .about-section {
+        flex-direction: column;
+        padding: 40px 50px 27px 50px;
+    }
+    .about-section-header {
+        font-size: 25px;
+        line-height: 33px;
+        width: 288px;
+    }
+    .about-section-header-h {
+        margin: -10px 120px 0 -5px;
+    }
+    .about-section-paragraph {
+        font-size: 15px;
+        line-height: 25px;
+        width: 330px;
+        margin-top: 14px;
+        margin-left: -25px;
+    }
+    .about-section-img {
+        width: 150px;
+        height: 147px;
+    }
+    .about-section-item-margin {
+        margin: -82px 0 0 63px;
+    }
+    .service-section-title {
+        font-size: 25px;
+        line-height: 33px;
+        width: 187px;
+    }
+    .service-section-block {
+        margin-top: 10px;
+        margin-bottom: -10px;
+        margin-left: 25px;
+    }
+    .service-section-buttons{
+        flex-wrap: wrap;
+    }
+    .service-section-button {
+        font-size: 15px;
+        line-height: 20px;
+        width: 121px;
+        height: 35px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-bottom: 7px;
+    }
+    .service-section-items {
+        justify-content: flex-end;
+        margin-top: -15px;
+    }
+    .service-section-item {
+        margin-bottom: 37px;
+    }
+    .price-section {
+        margin-bottom: -82px;
+    }
+    .price-section-content-block { 
+        flex-direction: column;
+    }
+    .price-section-select {
+        width: 180px;
+        margin: -3px 21px;
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+    .price-section-types {
+        align-items: center;
+        margin-left: 0;
+    }
+    .prices-header {
+        font-size: 25px;
+        margin-left: 0px;
+        margin-top: -5px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .select-block {
+        padding-bottom: 10px;
+        padding-top: 30px;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-bottom: 2px;
+    }
+    .select-span {
+        position: relative;
+        left: 142px;
+        bottom: 27px;
+    }
+    .price-section-header {
+        font-size: 20px;
+        line-height: 35px;
+        width: 230px;
+        text-align: center;
+    }
+    .price-section-button {
+        font-size: 15px;
+        line-height: 20px;
+        width: 121px;
+        height: 35px;
+        margin-top: 0;
+    }
+    .leafs_small {
+        display: none;
+    }
+    .price-header {
+        margin-top: 0px;
+        align-items: center;
+    }
+    .contacts-section-block {
+        flex-direction: column;
+    }
+    .contacts-section-h2 {
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+        margin: 25px 0px 0px 0px;
+    }
+    .contacts-city {
+        margin-top: 120px;
+    }
+    .contacts-section-select {
+        width: 300px;
+    }
+    .contacts-section-woman {
+        height: 125px;
+        width: 100px;
+        margin-top: 113px;
+        margin-left: -5px;
+    }
+    .footer-content {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .footer-github {
+        margin-left: 0px;
+    }
+    .footer-github-margin {
+        margin-top: 10px;
+    }
+    .footer-link-RSS {
+        margin-left: 40px;
+    }
+    .footer-img-block {
+        margin: -25px 75px 0 0;
+    }
 }
