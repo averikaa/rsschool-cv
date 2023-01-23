@@ -20,7 +20,7 @@ font-family: Inter;
 }
 @media screen and (max-width: 380px) {
     .header-content {
-        margin: 0px 0 20px -30px
+        margin: 0px -25px 20px -30px
     }
     .nav {
         display: none;
@@ -123,7 +123,7 @@ font-family: Inter;
         padding: 10px 30px;
     }
     .price-section-select-mobile {
-        background-position: calc(100% - 20px) calc(1em) !important;
+        background-position: calc(100% - 40px) calc(1em - -3px) !important
     }
     .price-section-types {
         align-items: center;
@@ -178,7 +178,7 @@ font-family: Inter;
         margin: 25px 0px 0px 0px;
     }
     .contacts-city {
-        margin-top: 120px;
+        margin-top: 65px;
     }
     .contacts-section-select {
         width: 300px;
@@ -207,7 +207,7 @@ font-family: Inter;
     }
     .menu-btn {
         display: block;
-        width: 30px;
+        width: 40px;
         height: 30px;
         position: relative;
         z-index:2;
@@ -215,10 +215,10 @@ font-family: Inter;
     }
     
     .menu-btn span {
-        width: 30px;
+        width: 40px;
         height: 2px;
         position: absolute;
-        top: 50%;
+        top: calc(0% + 2px);
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #222222;
@@ -229,18 +229,18 @@ font-family: Inter;
         top: calc(50% - 5px);
     }
     .menu-btn span:nth-of-type(3) {
-        top: calc(50% + 5px);
+        top: calc(50% + 2px);
     }
     .menu-btn span:nth-of-type(4) {
         top: calc(50% + 10px);
     }
-    .menu-btn.active span:nth-of-type(1) {
+    .menu-btn.active span:nth-of-type(2) {
       display: none;
     }
     .menu-btn.active span:nth-of-type(3) {
       display: none;
     }
-    .menu-btn.active span:nth-of-type(2) {
+    .menu-btn.active span:nth-of-type(1) {
       top: 50%;
       transform: translate(-50%, 0%) rotate(45deg);  
     }
