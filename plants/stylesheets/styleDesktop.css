@@ -77,6 +77,9 @@ body {
   .nav-link:hover {
     color: #E06733;
   }
+  .nav-link::after {
+    color: #E06733;
+  }
 .h1-color {
     color: #717171;
 }
@@ -466,8 +469,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin: 0 auto;
 }
 .footer-github {
     display: flex;
@@ -509,3 +511,27 @@ body {
 .footer-link:hover {
     color: #499A18;
 }
+
+.menu-btn {
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+
+
+select.round {
+    background-image: url("../assets/accordion_btn.svg");
+    background-position: calc(100% - 20px) calc(1em - 4px);
+    background-size: 16px;
+    background-repeat: no-repeat;
+  }
+  
+select.round:focus {
+    background-image: url("../assets/accordion_btn_reverse.svg");
+    background-position: calc(100% - 20px) calc(1em - 4px);
+    background-size: 16px;
+    background-repeat: no-repeat;
+  }
+  

@@ -44,8 +44,16 @@ font-family: Inter;
         width: 280px;
         height: 255px;
         display: block;
-        margin-left: 30px;
+        margin-left: -50px;
     }
+    .welcome-section-item {
+        width: 50%;
+    }
+    .welcome-section-item-img {
+        width: 280px;
+        flex-wrap: wrap-reverse;
+    }
+    
     .section-margin {
         margin: 0px;
     }
@@ -73,9 +81,7 @@ font-family: Inter;
         margin-bottom: 0px;
         margin-right: 30px;
     }
-    .welcome-section-item {
-        width: 50%;
-    }
+    
     .about-section {
         flex-direction: column;
         padding: 40px 50px 70px 50px;
@@ -86,19 +92,24 @@ font-family: Inter;
         line-height: 46px;
     }
     .about-section-header-h {
-        margin: 0 120px 0 122px;
+        margin: 0 auto;
         text-align: center;
     }
     .about-section-img {
         width: 250px;
+        margin: 0 auto;
+        display: block;
         height: 258px;
+        margin-bottom: 25px;
+        margin-top: -20px;
     }
     .about-section-item {
         margin-top: 0;
         margin-bottom: 70px;
     }
     .about-section-item-margin {
-        margin: -20px 210px 20px 210px;
+        /* margin: -20px 210px 20px 210px; */
+        margin: 0 auto;
     }
     .about-section-item-text {
         width: 100%;
@@ -152,6 +163,9 @@ font-family: Inter;
     .price-header {
         margin-top: 90px;
     }
+    .price-section-select {
+        margin-top: 25px;
+    }
     .price-section-header {
         font-size: 25px;
         line-height: 35px;
@@ -164,10 +178,12 @@ font-family: Inter;
         flex-direction: row;
         margin-right: 50px;
         margin-left: 50px;
+        flex-wrap: wrap;
     }
     .select-block {
         margin-left: -8px;
-        padding-top: 25px;
+        padding-top: 7px;
+        padding-bottom: 25px;
     }
     .contacts-section-block {
         flex-direction: column;
@@ -179,14 +195,15 @@ font-family: Inter;
     .contacts-section-woman {
         height: 250px ;
         width: 200px;
-        margin-top: 232px;
+        margin-top: 250px;
         margin-left: 20px;
     }
     .contacts-section-h2 {
         margin: 40px 0px -58px 0px;
     }
     .contacts-city {
-        margin-top: 213px;
+        margin-top: 157px;
+        width: 100%;
     }
     .footer-content {
         flex-direction: column;
@@ -203,4 +220,16 @@ font-family: Inter;
     .footer-img-block {
         margin: -7px 55px 0 0;
     }
+    .menu-btn {
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .contacts-section-select {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
